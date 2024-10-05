@@ -6,21 +6,6 @@ import (
 )
 
 func main() {
-	// service := src.NewService()
-
-	// folder1 := service.CreateFolder("1", -1)
-	// folder2 := service.CreateFolder("2", -1)
-	// folder3 := service.CreateFolder("3", -1)
-	// folder_11 := service.CreateFolder("11", folder1.GetID())
-	// service.CreateFolder("22", folder2.GetID())
-	// service.CreateFolder("33", folder3.GetID())
-	// file := service.CreateFile("file", folder1.GetID(), []byte{})
-	// fmt.Printf("childs of folder1(expected [11, file]) are : %v \n", service.AllChildsOfFolder(folder1.GetID()))
-	// fmt.Printf("childs of folder11 (expected[] are) : %v \n", service.AllChildsOfFolder(folder_11.GetID()))
-	// service.MoveFolderToNewDest(file.GetID(), folder2.GetID())
-	// fmt.Printf("childs of folder1(expected [11] file should be removed from here) are : %v \n", service.AllChildsOfFolder(folder1.GetID()))
-	// fmt.Printf("childs of folder2(expected [22, file] because we moved file) are : %v \n", service.AllChildsOfFolder(folder2.GetID()))
-
 	service := src.NewService()
 
 	// Creating a more complex nested structure.
